@@ -1,1 +1,34 @@
+
 /* You can add global styles to this file, and also import other style files */
+@import url('assets/css/bootstrap.min.css');
+
+.home-background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("assets/images/pix.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home-background .overlay {
+    width: 100%;
+    height: 100%;
+    background: #0202029e;
+    padding: 20% 50px;
+    text-align: center;
+}
+
+.home-background .overlay h1,
+.home-background .overlay h2,
+.home-background .overlay h3,
+.home-background .overlay h4,
+.home-background .overlay h5,
+.home-background .overlay h6 {
+    color: #ffffff;
+}
